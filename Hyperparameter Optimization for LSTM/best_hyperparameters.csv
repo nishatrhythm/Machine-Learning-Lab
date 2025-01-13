@@ -1,0 +1,2 @@
+Activation Function,Number of Neurons,Dropout Rate,Number of Layers,Optimizer,Learning Rate,Epochs,Test Loss,MAE,MSE
+tanh,100,0.2,2,rmsprop,0.01,20,0.0070187770761549,0.0659922584891319,0.0070187770761549
