@@ -1,57 +1,114 @@
-# Hyperparameter Optimization for LSTM on Daily Minimum Temperatures Dataset
+# Machine Learning Lab
 
-This repository demonstrates hyperparameter optimization for Long Short-Term Memory (LSTM) networks on the **Daily Minimum Temperatures Dataset**. The objective is to predict the next day's temperature using time-series data and evaluate the impact of various hyperparameters on the model's performance.
+A comprehensive collection of machine learning algorithms, techniques, and implementations for educational and practical purposes.
 
-## Dataset
+---
 
-The dataset used is the **Daily Minimum Temperatures Dataset**, which contains daily minimum temperatures recorded in Melbourne, Australia. It spans from 1981 to 1990 and can be directly downloaded from [this link](https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-min-temperatures.csv).
+## Overview
 
-## Features
+This repository contains various machine learning implementations and examples ranging from classic reinforcement learning (Q-Learning) to advanced deep learning techniques (CNN, LSTM, GAN, GNN). Each directory focuses on a specific algorithm or concept with practical examples and visualizations.
 
-- **Dynamic hyperparameter optimization** using combinations of:
-  - Activation Functions: `tanh`, `relu`
-  - Number of Neurons: `50`, `100`
-  - Dropout Rates: `0.2`, `0.3`
-  - Number of Layers: `1`, `2`
-  - Optimizers: `adam`, `rmsprop`
-  - Learning Rates: `0.001`, `0.01`
-  - Epochs: `20`, `30`
-- Results logged into CSV files:
-  - `hyperparameter_results.csv`: Contains metrics for all hyperparameter combinations.
-  - `best_hyperparameters.csv`: Contains the best-performing hyperparameter configuration.
-- Visualization of training and validation losses for the best model.
-- **Best model saved** as `best_lstm_model.h5` for future use.
+---
 
-## Execution Environment
+## Repository Structure
 
-This project was executed on **Google Colab** using the **v2-8 TPU**. The total execution time was approximately **5378.465 seconds**.
+### 1. Q Learning
+- Implementation of Q-Learning reinforcement learning algorithm
+- Visualization of Q-Learning process
 
-## Files
+### 2. Multilayer Perceptron (MLP)
+- Univariate MLP implementation
+- Multivariate MLP implementation
+- Multi-step prediction MLP
+- Combined multivariate multi-step MLP 
 
-- **`hyperparameter_results.csv`**: Contains performance metrics (MSE, MAE) for all hyperparameter combinations.
-- **`best_hyperparameters.csv`**: Contains the best-performing hyperparameter configuration based on MSE.
-- **`best_lstm_model.h5`**: The trained LSTM model using the best hyperparameters.
+### 3. Neural Network
+- Basic neural network implementation
 
-## Results
+### 4. Convolutional Neural Networks (CNN)
+- CNN implementation with optimized training
+- Training history visualization
 
-The best-performing hyperparameters are as follows:
+### 5. Image to CSV
+- Tool to extract text from images and convert to CSV format
 
-| Activation Function | Number of Neurons | Dropout Rate | Number of Layers | Optimizer | Learning Rate | Epochs | Test Loss | MAE    | MSE    |
-|---------------------|-------------------|--------------|------------------|-----------|---------------|--------|-----------|--------|--------|
-| `tanh`             | 100               | 0.2          | 2                | `rmsprop` | 0.01          | 20     | 0.007019  | 0.0659 | 0.0070 |
+### 6. Hyperparameter Optimization for LSTM
+- Implementation of hyperparameter tuning for LSTM models
+- Results visualization and best parameters selection
 
-## Performance
+### 7. Graph Neural Networks (GNN)
+- Implementation of Graph Neural Networks
+- Includes Cora dataset for node classification
 
-- **Test Loss**: `0.007019`
-- **Mean Absolute Error (MAE)**: `0.0659`
-- **Mean Squared Error (MSE)**: `0.0070`
+### 8. Numpy and Tensorflow Basics
+- Basic operations and examples using NumPy
+- TensorFlow tensor operations and shape manipulations
 
-## Visualization
+### 9. Generative Adversarial Networks (GAN)
+- Implementation of GAN architecture
 
-![Loss Curve](Hyperparameter%20Optimization%20for%20LSTM/loss_curve.png)  
-The graph shows the training and validation loss for the best model over epochs.
+### 10. Datasets
+- Electric production dataset
+- Synthetic time series dataset
 
-## References
+### 11. Final Exam Lab Code
+- MLPwithHyperparameter: Multilayer perceptron with hyperparameter tuning
+- predicWeatherLSTM: LSTM model for weather prediction
+- numpy_folder: Basic NumPy operations
+- Various datasets for experimentation
 
-- Dataset: [Daily Minimum Temperatures Dataset](https://github.com/jbrownlee/Datasets)
-- LSTM implementation and hyperparameter optimization techniques.
+---
+
+## Getting Started
+
+### Prerequisites
+- Python 3.6+
+- TensorFlow 2.x
+- PyTorch
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+### Installation
+```bash
+# Clone this repository
+git clone https://github.com/nishatrhythm/Machine-Learning-Lab.git
+
+# Navigate to the repository directory
+cd Machine-Learning-Lab
+
+# Install required packages
+pip install -r requirements.txt  # Note: Create this file with the necessary dependencies
+```
+
+---
+
+## Usage Examples
+
+Each directory contains specific implementations with their own usage instructions. Below are a few examples:
+
+### Q Learning
+```python
+# Run Q Learning algorithm
+python "1. Q Learning/Q_Learning.py"
+```
+
+### Neural Network
+```python
+# Run basic neural network implementation
+python "3. Neural Network/neuralNetwork.py"
+```
+
+### CNN
+```python
+# Run CNN implementation
+python "4. CNN/cnn.py"
+```
+
+---
+
+## Acknowledgments
+
+- Various open-source machine learning libraries and tools
+- Academic resources and tutorials that inspired these implementations

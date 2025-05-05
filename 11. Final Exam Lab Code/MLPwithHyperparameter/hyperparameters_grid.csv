@@ -1,0 +1,361 @@
+hidden_layer_sizes,activation,solver,alpha,learning_rate,learning_rate_init
+"(10,)",relu,adam,0.0001,constant,0.001
+"(10,)",relu,adam,0.0001,constant,0.01
+"(10,)",relu,adam,0.0001,constant,0.0001
+"(10,)",relu,adam,0.0001,adaptive,0.001
+"(10,)",relu,adam,0.0001,adaptive,0.01
+"(10,)",relu,adam,0.0001,adaptive,0.0001
+"(10,)",relu,adam,0.001,constant,0.001
+"(10,)",relu,adam,0.001,constant,0.01
+"(10,)",relu,adam,0.001,constant,0.0001
+"(10,)",relu,adam,0.001,adaptive,0.001
+"(10,)",relu,adam,0.001,adaptive,0.01
+"(10,)",relu,adam,0.001,adaptive,0.0001
+"(10,)",relu,adam,0.01,constant,0.001
+"(10,)",relu,adam,0.01,constant,0.01
+"(10,)",relu,adam,0.01,constant,0.0001
+"(10,)",relu,adam,0.01,adaptive,0.001
+"(10,)",relu,adam,0.01,adaptive,0.01
+"(10,)",relu,adam,0.01,adaptive,0.0001
+"(10,)",relu,sgd,0.0001,constant,0.001
+"(10,)",relu,sgd,0.0001,constant,0.01
+"(10,)",relu,sgd,0.0001,constant,0.0001
+"(10,)",relu,sgd,0.0001,adaptive,0.001
+"(10,)",relu,sgd,0.0001,adaptive,0.01
+"(10,)",relu,sgd,0.0001,adaptive,0.0001
+"(10,)",relu,sgd,0.001,constant,0.001
+"(10,)",relu,sgd,0.001,constant,0.01
+"(10,)",relu,sgd,0.001,constant,0.0001
+"(10,)",relu,sgd,0.001,adaptive,0.001
+"(10,)",relu,sgd,0.001,adaptive,0.01
+"(10,)",relu,sgd,0.001,adaptive,0.0001
+"(10,)",relu,sgd,0.01,constant,0.001
+"(10,)",relu,sgd,0.01,constant,0.01
+"(10,)",relu,sgd,0.01,constant,0.0001
+"(10,)",relu,sgd,0.01,adaptive,0.001
+"(10,)",relu,sgd,0.01,adaptive,0.01
+"(10,)",relu,sgd,0.01,adaptive,0.0001
+"(10,)",tanh,adam,0.0001,constant,0.001
+"(10,)",tanh,adam,0.0001,constant,0.01
+"(10,)",tanh,adam,0.0001,constant,0.0001
+"(10,)",tanh,adam,0.0001,adaptive,0.001
+"(10,)",tanh,adam,0.0001,adaptive,0.01
+"(10,)",tanh,adam,0.0001,adaptive,0.0001
+"(10,)",tanh,adam,0.001,constant,0.001
+"(10,)",tanh,adam,0.001,constant,0.01
+"(10,)",tanh,adam,0.001,constant,0.0001
+"(10,)",tanh,adam,0.001,adaptive,0.001
+"(10,)",tanh,adam,0.001,adaptive,0.01
+"(10,)",tanh,adam,0.001,adaptive,0.0001
+"(10,)",tanh,adam,0.01,constant,0.001
+"(10,)",tanh,adam,0.01,constant,0.01
+"(10,)",tanh,adam,0.01,constant,0.0001
+"(10,)",tanh,adam,0.01,adaptive,0.001
+"(10,)",tanh,adam,0.01,adaptive,0.01
+"(10,)",tanh,adam,0.01,adaptive,0.0001
+"(10,)",tanh,sgd,0.0001,constant,0.001
+"(10,)",tanh,sgd,0.0001,constant,0.01
+"(10,)",tanh,sgd,0.0001,constant,0.0001
+"(10,)",tanh,sgd,0.0001,adaptive,0.001
+"(10,)",tanh,sgd,0.0001,adaptive,0.01
+"(10,)",tanh,sgd,0.0001,adaptive,0.0001
+"(10,)",tanh,sgd,0.001,constant,0.001
+"(10,)",tanh,sgd,0.001,constant,0.01
+"(10,)",tanh,sgd,0.001,constant,0.0001
+"(10,)",tanh,sgd,0.001,adaptive,0.001
+"(10,)",tanh,sgd,0.001,adaptive,0.01
+"(10,)",tanh,sgd,0.001,adaptive,0.0001
+"(10,)",tanh,sgd,0.01,constant,0.001
+"(10,)",tanh,sgd,0.01,constant,0.01
+"(10,)",tanh,sgd,0.01,constant,0.0001
+"(10,)",tanh,sgd,0.01,adaptive,0.001
+"(10,)",tanh,sgd,0.01,adaptive,0.01
+"(10,)",tanh,sgd,0.01,adaptive,0.0001
+"(50,)",relu,adam,0.0001,constant,0.001
+"(50,)",relu,adam,0.0001,constant,0.01
+"(50,)",relu,adam,0.0001,constant,0.0001
+"(50,)",relu,adam,0.0001,adaptive,0.001
+"(50,)",relu,adam,0.0001,adaptive,0.01
+"(50,)",relu,adam,0.0001,adaptive,0.0001
+"(50,)",relu,adam,0.001,constant,0.001
+"(50,)",relu,adam,0.001,constant,0.01
+"(50,)",relu,adam,0.001,constant,0.0001
+"(50,)",relu,adam,0.001,adaptive,0.001
+"(50,)",relu,adam,0.001,adaptive,0.01
+"(50,)",relu,adam,0.001,adaptive,0.0001
+"(50,)",relu,adam,0.01,constant,0.001
+"(50,)",relu,adam,0.01,constant,0.01
+"(50,)",relu,adam,0.01,constant,0.0001
+"(50,)",relu,adam,0.01,adaptive,0.001
+"(50,)",relu,adam,0.01,adaptive,0.01
+"(50,)",relu,adam,0.01,adaptive,0.0001
+"(50,)",relu,sgd,0.0001,constant,0.001
+"(50,)",relu,sgd,0.0001,constant,0.01
+"(50,)",relu,sgd,0.0001,constant,0.0001
+"(50,)",relu,sgd,0.0001,adaptive,0.001
+"(50,)",relu,sgd,0.0001,adaptive,0.01
+"(50,)",relu,sgd,0.0001,adaptive,0.0001
+"(50,)",relu,sgd,0.001,constant,0.001
+"(50,)",relu,sgd,0.001,constant,0.01
+"(50,)",relu,sgd,0.001,constant,0.0001
+"(50,)",relu,sgd,0.001,adaptive,0.001
+"(50,)",relu,sgd,0.001,adaptive,0.01
+"(50,)",relu,sgd,0.001,adaptive,0.0001
+"(50,)",relu,sgd,0.01,constant,0.001
+"(50,)",relu,sgd,0.01,constant,0.01
+"(50,)",relu,sgd,0.01,constant,0.0001
+"(50,)",relu,sgd,0.01,adaptive,0.001
+"(50,)",relu,sgd,0.01,adaptive,0.01
+"(50,)",relu,sgd,0.01,adaptive,0.0001
+"(50,)",tanh,adam,0.0001,constant,0.001
+"(50,)",tanh,adam,0.0001,constant,0.01
+"(50,)",tanh,adam,0.0001,constant,0.0001
+"(50,)",tanh,adam,0.0001,adaptive,0.001
+"(50,)",tanh,adam,0.0001,adaptive,0.01
+"(50,)",tanh,adam,0.0001,adaptive,0.0001
+"(50,)",tanh,adam,0.001,constant,0.001
+"(50,)",tanh,adam,0.001,constant,0.01
+"(50,)",tanh,adam,0.001,constant,0.0001
+"(50,)",tanh,adam,0.001,adaptive,0.001
+"(50,)",tanh,adam,0.001,adaptive,0.01
+"(50,)",tanh,adam,0.001,adaptive,0.0001
+"(50,)",tanh,adam,0.01,constant,0.001
+"(50,)",tanh,adam,0.01,constant,0.01
+"(50,)",tanh,adam,0.01,constant,0.0001
+"(50,)",tanh,adam,0.01,adaptive,0.001
+"(50,)",tanh,adam,0.01,adaptive,0.01
+"(50,)",tanh,adam,0.01,adaptive,0.0001
+"(50,)",tanh,sgd,0.0001,constant,0.001
+"(50,)",tanh,sgd,0.0001,constant,0.01
+"(50,)",tanh,sgd,0.0001,constant,0.0001
+"(50,)",tanh,sgd,0.0001,adaptive,0.001
+"(50,)",tanh,sgd,0.0001,adaptive,0.01
+"(50,)",tanh,sgd,0.0001,adaptive,0.0001
+"(50,)",tanh,sgd,0.001,constant,0.001
+"(50,)",tanh,sgd,0.001,constant,0.01
+"(50,)",tanh,sgd,0.001,constant,0.0001
+"(50,)",tanh,sgd,0.001,adaptive,0.001
+"(50,)",tanh,sgd,0.001,adaptive,0.01
+"(50,)",tanh,sgd,0.001,adaptive,0.0001
+"(50,)",tanh,sgd,0.01,constant,0.001
+"(50,)",tanh,sgd,0.01,constant,0.01
+"(50,)",tanh,sgd,0.01,constant,0.0001
+"(50,)",tanh,sgd,0.01,adaptive,0.001
+"(50,)",tanh,sgd,0.01,adaptive,0.01
+"(50,)",tanh,sgd,0.01,adaptive,0.0001
+"(100,)",relu,adam,0.0001,constant,0.001
+"(100,)",relu,adam,0.0001,constant,0.01
+"(100,)",relu,adam,0.0001,constant,0.0001
+"(100,)",relu,adam,0.0001,adaptive,0.001
+"(100,)",relu,adam,0.0001,adaptive,0.01
+"(100,)",relu,adam,0.0001,adaptive,0.0001
+"(100,)",relu,adam,0.001,constant,0.001
+"(100,)",relu,adam,0.001,constant,0.01
+"(100,)",relu,adam,0.001,constant,0.0001
+"(100,)",relu,adam,0.001,adaptive,0.001
+"(100,)",relu,adam,0.001,adaptive,0.01
+"(100,)",relu,adam,0.001,adaptive,0.0001
+"(100,)",relu,adam,0.01,constant,0.001
+"(100,)",relu,adam,0.01,constant,0.01
+"(100,)",relu,adam,0.01,constant,0.0001
+"(100,)",relu,adam,0.01,adaptive,0.001
+"(100,)",relu,adam,0.01,adaptive,0.01
+"(100,)",relu,adam,0.01,adaptive,0.0001
+"(100,)",relu,sgd,0.0001,constant,0.001
+"(100,)",relu,sgd,0.0001,constant,0.01
+"(100,)",relu,sgd,0.0001,constant,0.0001
+"(100,)",relu,sgd,0.0001,adaptive,0.001
+"(100,)",relu,sgd,0.0001,adaptive,0.01
+"(100,)",relu,sgd,0.0001,adaptive,0.0001
+"(100,)",relu,sgd,0.001,constant,0.001
+"(100,)",relu,sgd,0.001,constant,0.01
+"(100,)",relu,sgd,0.001,constant,0.0001
+"(100,)",relu,sgd,0.001,adaptive,0.001
+"(100,)",relu,sgd,0.001,adaptive,0.01
+"(100,)",relu,sgd,0.001,adaptive,0.0001
+"(100,)",relu,sgd,0.01,constant,0.001
+"(100,)",relu,sgd,0.01,constant,0.01
+"(100,)",relu,sgd,0.01,constant,0.0001
+"(100,)",relu,sgd,0.01,adaptive,0.001
+"(100,)",relu,sgd,0.01,adaptive,0.01
+"(100,)",relu,sgd,0.01,adaptive,0.0001
+"(100,)",tanh,adam,0.0001,constant,0.001
+"(100,)",tanh,adam,0.0001,constant,0.01
+"(100,)",tanh,adam,0.0001,constant,0.0001
+"(100,)",tanh,adam,0.0001,adaptive,0.001
+"(100,)",tanh,adam,0.0001,adaptive,0.01
+"(100,)",tanh,adam,0.0001,adaptive,0.0001
+"(100,)",tanh,adam,0.001,constant,0.001
+"(100,)",tanh,adam,0.001,constant,0.01
+"(100,)",tanh,adam,0.001,constant,0.0001
+"(100,)",tanh,adam,0.001,adaptive,0.001
+"(100,)",tanh,adam,0.001,adaptive,0.01
+"(100,)",tanh,adam,0.001,adaptive,0.0001
+"(100,)",tanh,adam,0.01,constant,0.001
+"(100,)",tanh,adam,0.01,constant,0.01
+"(100,)",tanh,adam,0.01,constant,0.0001
+"(100,)",tanh,adam,0.01,adaptive,0.001
+"(100,)",tanh,adam,0.01,adaptive,0.01
+"(100,)",tanh,adam,0.01,adaptive,0.0001
+"(100,)",tanh,sgd,0.0001,constant,0.001
+"(100,)",tanh,sgd,0.0001,constant,0.01
+"(100,)",tanh,sgd,0.0001,constant,0.0001
+"(100,)",tanh,sgd,0.0001,adaptive,0.001
+"(100,)",tanh,sgd,0.0001,adaptive,0.01
+"(100,)",tanh,sgd,0.0001,adaptive,0.0001
+"(100,)",tanh,sgd,0.001,constant,0.001
+"(100,)",tanh,sgd,0.001,constant,0.01
+"(100,)",tanh,sgd,0.001,constant,0.0001
+"(100,)",tanh,sgd,0.001,adaptive,0.001
+"(100,)",tanh,sgd,0.001,adaptive,0.01
+"(100,)",tanh,sgd,0.001,adaptive,0.0001
+"(100,)",tanh,sgd,0.01,constant,0.001
+"(100,)",tanh,sgd,0.01,constant,0.01
+"(100,)",tanh,sgd,0.01,constant,0.0001
+"(100,)",tanh,sgd,0.01,adaptive,0.001
+"(100,)",tanh,sgd,0.01,adaptive,0.01
+"(100,)",tanh,sgd,0.01,adaptive,0.0001
+"(10, 10)",relu,adam,0.0001,constant,0.001
+"(10, 10)",relu,adam,0.0001,constant,0.01
+"(10, 10)",relu,adam,0.0001,constant,0.0001
+"(10, 10)",relu,adam,0.0001,adaptive,0.001
+"(10, 10)",relu,adam,0.0001,adaptive,0.01
+"(10, 10)",relu,adam,0.0001,adaptive,0.0001
+"(10, 10)",relu,adam,0.001,constant,0.001
+"(10, 10)",relu,adam,0.001,constant,0.01
+"(10, 10)",relu,adam,0.001,constant,0.0001
+"(10, 10)",relu,adam,0.001,adaptive,0.001
+"(10, 10)",relu,adam,0.001,adaptive,0.01
+"(10, 10)",relu,adam,0.001,adaptive,0.0001
+"(10, 10)",relu,adam,0.01,constant,0.001
+"(10, 10)",relu,adam,0.01,constant,0.01
+"(10, 10)",relu,adam,0.01,constant,0.0001
+"(10, 10)",relu,adam,0.01,adaptive,0.001
+"(10, 10)",relu,adam,0.01,adaptive,0.01
+"(10, 10)",relu,adam,0.01,adaptive,0.0001
+"(10, 10)",relu,sgd,0.0001,constant,0.001
+"(10, 10)",relu,sgd,0.0001,constant,0.01
+"(10, 10)",relu,sgd,0.0001,constant,0.0001
+"(10, 10)",relu,sgd,0.0001,adaptive,0.001
+"(10, 10)",relu,sgd,0.0001,adaptive,0.01
+"(10, 10)",relu,sgd,0.0001,adaptive,0.0001
+"(10, 10)",relu,sgd,0.001,constant,0.001
+"(10, 10)",relu,sgd,0.001,constant,0.01
+"(10, 10)",relu,sgd,0.001,constant,0.0001
+"(10, 10)",relu,sgd,0.001,adaptive,0.001
+"(10, 10)",relu,sgd,0.001,adaptive,0.01
+"(10, 10)",relu,sgd,0.001,adaptive,0.0001
+"(10, 10)",relu,sgd,0.01,constant,0.001
+"(10, 10)",relu,sgd,0.01,constant,0.01
+"(10, 10)",relu,sgd,0.01,constant,0.0001
+"(10, 10)",relu,sgd,0.01,adaptive,0.001
+"(10, 10)",relu,sgd,0.01,adaptive,0.01
+"(10, 10)",relu,sgd,0.01,adaptive,0.0001
+"(10, 10)",tanh,adam,0.0001,constant,0.001
+"(10, 10)",tanh,adam,0.0001,constant,0.01
+"(10, 10)",tanh,adam,0.0001,constant,0.0001
+"(10, 10)",tanh,adam,0.0001,adaptive,0.001
+"(10, 10)",tanh,adam,0.0001,adaptive,0.01
+"(10, 10)",tanh,adam,0.0001,adaptive,0.0001
+"(10, 10)",tanh,adam,0.001,constant,0.001
+"(10, 10)",tanh,adam,0.001,constant,0.01
+"(10, 10)",tanh,adam,0.001,constant,0.0001
+"(10, 10)",tanh,adam,0.001,adaptive,0.001
+"(10, 10)",tanh,adam,0.001,adaptive,0.01
+"(10, 10)",tanh,adam,0.001,adaptive,0.0001
+"(10, 10)",tanh,adam,0.01,constant,0.001
+"(10, 10)",tanh,adam,0.01,constant,0.01
+"(10, 10)",tanh,adam,0.01,constant,0.0001
+"(10, 10)",tanh,adam,0.01,adaptive,0.001
+"(10, 10)",tanh,adam,0.01,adaptive,0.01
+"(10, 10)",tanh,adam,0.01,adaptive,0.0001
+"(10, 10)",tanh,sgd,0.0001,constant,0.001
+"(10, 10)",tanh,sgd,0.0001,constant,0.01
+"(10, 10)",tanh,sgd,0.0001,constant,0.0001
+"(10, 10)",tanh,sgd,0.0001,adaptive,0.001
+"(10, 10)",tanh,sgd,0.0001,adaptive,0.01
+"(10, 10)",tanh,sgd,0.0001,adaptive,0.0001
+"(10, 10)",tanh,sgd,0.001,constant,0.001
+"(10, 10)",tanh,sgd,0.001,constant,0.01
+"(10, 10)",tanh,sgd,0.001,constant,0.0001
+"(10, 10)",tanh,sgd,0.001,adaptive,0.001
+"(10, 10)",tanh,sgd,0.001,adaptive,0.01
+"(10, 10)",tanh,sgd,0.001,adaptive,0.0001
+"(10, 10)",tanh,sgd,0.01,constant,0.001
+"(10, 10)",tanh,sgd,0.01,constant,0.01
+"(10, 10)",tanh,sgd,0.01,constant,0.0001
+"(10, 10)",tanh,sgd,0.01,adaptive,0.001
+"(10, 10)",tanh,sgd,0.01,adaptive,0.01
+"(10, 10)",tanh,sgd,0.01,adaptive,0.0001
+"(50, 50)",relu,adam,0.0001,constant,0.001
+"(50, 50)",relu,adam,0.0001,constant,0.01
+"(50, 50)",relu,adam,0.0001,constant,0.0001
+"(50, 50)",relu,adam,0.0001,adaptive,0.001
+"(50, 50)",relu,adam,0.0001,adaptive,0.01
+"(50, 50)",relu,adam,0.0001,adaptive,0.0001
+"(50, 50)",relu,adam,0.001,constant,0.001
+"(50, 50)",relu,adam,0.001,constant,0.01
+"(50, 50)",relu,adam,0.001,constant,0.0001
+"(50, 50)",relu,adam,0.001,adaptive,0.001
+"(50, 50)",relu,adam,0.001,adaptive,0.01
+"(50, 50)",relu,adam,0.001,adaptive,0.0001
+"(50, 50)",relu,adam,0.01,constant,0.001
+"(50, 50)",relu,adam,0.01,constant,0.01
+"(50, 50)",relu,adam,0.01,constant,0.0001
+"(50, 50)",relu,adam,0.01,adaptive,0.001
+"(50, 50)",relu,adam,0.01,adaptive,0.01
+"(50, 50)",relu,adam,0.01,adaptive,0.0001
+"(50, 50)",relu,sgd,0.0001,constant,0.001
+"(50, 50)",relu,sgd,0.0001,constant,0.01
+"(50, 50)",relu,sgd,0.0001,constant,0.0001
+"(50, 50)",relu,sgd,0.0001,adaptive,0.001
+"(50, 50)",relu,sgd,0.0001,adaptive,0.01
+"(50, 50)",relu,sgd,0.0001,adaptive,0.0001
+"(50, 50)",relu,sgd,0.001,constant,0.001
+"(50, 50)",relu,sgd,0.001,constant,0.01
+"(50, 50)",relu,sgd,0.001,constant,0.0001
+"(50, 50)",relu,sgd,0.001,adaptive,0.001
+"(50, 50)",relu,sgd,0.001,adaptive,0.01
+"(50, 50)",relu,sgd,0.001,adaptive,0.0001
+"(50, 50)",relu,sgd,0.01,constant,0.001
+"(50, 50)",relu,sgd,0.01,constant,0.01
+"(50, 50)",relu,sgd,0.01,constant,0.0001
+"(50, 50)",relu,sgd,0.01,adaptive,0.001
+"(50, 50)",relu,sgd,0.01,adaptive,0.01
+"(50, 50)",relu,sgd,0.01,adaptive,0.0001
+"(50, 50)",tanh,adam,0.0001,constant,0.001
+"(50, 50)",tanh,adam,0.0001,constant,0.01
+"(50, 50)",tanh,adam,0.0001,constant,0.0001
+"(50, 50)",tanh,adam,0.0001,adaptive,0.001
+"(50, 50)",tanh,adam,0.0001,adaptive,0.01
+"(50, 50)",tanh,adam,0.0001,adaptive,0.0001
+"(50, 50)",tanh,adam,0.001,constant,0.001
+"(50, 50)",tanh,adam,0.001,constant,0.01
+"(50, 50)",tanh,adam,0.001,constant,0.0001
+"(50, 50)",tanh,adam,0.001,adaptive,0.001
+"(50, 50)",tanh,adam,0.001,adaptive,0.01
+"(50, 50)",tanh,adam,0.001,adaptive,0.0001
+"(50, 50)",tanh,adam,0.01,constant,0.001
+"(50, 50)",tanh,adam,0.01,constant,0.01
+"(50, 50)",tanh,adam,0.01,constant,0.0001
+"(50, 50)",tanh,adam,0.01,adaptive,0.001
+"(50, 50)",tanh,adam,0.01,adaptive,0.01
+"(50, 50)",tanh,adam,0.01,adaptive,0.0001
+"(50, 50)",tanh,sgd,0.0001,constant,0.001
+"(50, 50)",tanh,sgd,0.0001,constant,0.01
+"(50, 50)",tanh,sgd,0.0001,constant,0.0001
+"(50, 50)",tanh,sgd,0.0001,adaptive,0.001
+"(50, 50)",tanh,sgd,0.0001,adaptive,0.01
+"(50, 50)",tanh,sgd,0.0001,adaptive,0.0001
+"(50, 50)",tanh,sgd,0.001,constant,0.001
+"(50, 50)",tanh,sgd,0.001,constant,0.01
+"(50, 50)",tanh,sgd,0.001,constant,0.0001
+"(50, 50)",tanh,sgd,0.001,adaptive,0.001
+"(50, 50)",tanh,sgd,0.001,adaptive,0.01
+"(50, 50)",tanh,sgd,0.001,adaptive,0.0001
+"(50, 50)",tanh,sgd,0.01,constant,0.001
+"(50, 50)",tanh,sgd,0.01,constant,0.01
+"(50, 50)",tanh,sgd,0.01,constant,0.0001
+"(50, 50)",tanh,sgd,0.01,adaptive,0.001
+"(50, 50)",tanh,sgd,0.01,adaptive,0.01
+"(50, 50)",tanh,sgd,0.01,adaptive,0.0001

@@ -1,0 +1,2 @@
+Number of Neurons,Dropout Rate,Number of Layers,Epochs,Test Loss,MAE,MSE
+100.0,0.2,1.0,30.0,0.0070427223108708,0.0660534650087356,0.0070427223108708

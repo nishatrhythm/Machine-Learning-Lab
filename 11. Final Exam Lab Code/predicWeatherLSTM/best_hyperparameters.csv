@@ -1,0 +1,2 @@
+units,learning_rate,batch_size,dropout_rate,epochs
+128,0.01,32,0.3,50
